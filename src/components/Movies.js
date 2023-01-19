@@ -10,7 +10,6 @@ function Movies() {
       <p>Time: {movie.time}</p>
       <p>Genres: </p>
       <ul>
-        Genres:
         {movie.genres.map((genre) => (
           <li key={genre}>{genre}</li>
         ))}  
