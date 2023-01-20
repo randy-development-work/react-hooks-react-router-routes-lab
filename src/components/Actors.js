@@ -6,8 +6,8 @@ function Actors() {
   // const moviesList = actors.map((mov) => (
   //   <li>{mov.movies}</li>
   // ))
-  const actorsList = actors.map((actor) => (
-    <div>
+  const actorsList = actors.map((actor) => {
+    return <div>
       <h2>{actor.name}</h2>
         <p>Movies: </p>
       <ul>
@@ -16,7 +16,7 @@ function Actors() {
         ))}
       </ul>
     </div>
-  ))
+})
   return (
     <div>
     <h1>Actors Page</h1>
